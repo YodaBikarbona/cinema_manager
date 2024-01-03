@@ -4,7 +4,6 @@ import dev.yoda.cinemamanager.helper.ErrorMessage;
 import dev.yoda.cinemamanager.model.UserType;
 import dev.yoda.cinemamanager.service.UserService;
 import dev.yoda.cinemamanager.validation.RegisterRequest;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.validation.annotation.Validated;
