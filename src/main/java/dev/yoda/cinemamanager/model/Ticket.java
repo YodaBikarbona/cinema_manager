@@ -4,10 +4,11 @@ import jakarta.persistence.*;
 
 import java.time.Instant;
 
-@Entity
+// @Entity
 public class Ticket extends BaseEntity {
 
     private User user;
+    @ManyToOne
     private Showtime showtime;
 
     public Ticket(User user, Showtime showtime) {

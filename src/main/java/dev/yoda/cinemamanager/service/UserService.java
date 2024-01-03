@@ -4,9 +4,9 @@ import dev.yoda.cinemamanager.model.User;
 import dev.yoda.cinemamanager.model.UserType;
 import dev.yoda.cinemamanager.repository.UserRepository;
 import dev.yoda.cinemamanager.validation.RegisterRequest;
-import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -15,7 +15,6 @@ public class UserService {
 
     private final UserRepository userRepository;
 
-    @Autowired
     public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
@@ -28,7 +27,7 @@ public class UserService {
 
     public User getUserByEmail(String email) { return userRepository.findByEmail(email); }
 
-    @Transactional(rollbackOn = Exception.class)
+    @Transactional(rollbackFor = Exception.class)
     public boolean createUser(RegisterRequest requestData, UserType type) {
         try {
             User user = new User(requestData.getEmail(), requestData.getPassword(), type);

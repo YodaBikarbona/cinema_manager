@@ -15,15 +15,18 @@ import org.springframework.web.server.ResponseStatusException;
 @RequestMapping("/api/v1/register")
 public class RegisterUser {
 
-    @Autowired
-    private UserService service;
-    @Autowired
-    private PasswordEncoder passwordEncoder;
-    @Autowired
-    private ErrorMessage errorMessage;
+    private final UserService service;
+    private final PasswordEncoder passwordEncoder;
+    private final ErrorMessage errorMessage;
+
+    public RegisterUser(UserService service, PasswordEncoder passwordEncoder, ErrorMessage errorMessage) {
+        this.service = service;
+        this.passwordEncoder = passwordEncoder;
+        this.errorMessage = errorMessage;
+    }
 
     @ResponseStatus(HttpStatus.CREATED)
-    @PostMapping("")
+    @PostMapping
     public void register(@Validated @RequestBody RegisterRequest registerRequest) {
 
         String email = registerRequest.getEmail();

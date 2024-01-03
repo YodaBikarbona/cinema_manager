@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 
 import java.time.Instant;
 
-@Entity
+// @Entity
 public class Room extends BaseEntity {
 
     private String name;

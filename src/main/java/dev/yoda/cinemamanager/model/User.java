@@ -2,13 +2,13 @@ package dev.yoda.cinemamanager.model;
 
 import jakarta.persistence.*;
 
-import java.time.Instant;
-
 @Entity
+@Table(name = "user")
 public class User extends BaseEntity {
 
     private String email;
     private String password;
+    @Enumerated(EnumType.STRING)
     private UserType type;
 
     public User(String email, String password, UserType type) {

@@ -6,9 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
-@EnableAutoConfiguration
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
-@EnableJpaRepositories(basePackages = "dev.yoda.cinemamanager.repository")
+// @EnableAutoConfiguration
+// @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+// @EnableJpaRepositories(basePackages = "dev.yoda.cinemamanager.repository")
+@SpringBootApplication
 public class CinemaManagerApplication {
 
 	public static void main(String[] args) {

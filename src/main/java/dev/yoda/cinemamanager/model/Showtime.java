@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 
 import java.time.Instant;
 
-@Entity
+// @Entity
 public class Showtime extends BaseEntity {
 
     private Movie movie;

@@ -1,5 +1,8 @@
 package dev.yoda.cinemamanager.helper;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ErrorMessage {
 
     private final String userAlreadyExists = "The user already exists!";
