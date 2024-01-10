@@ -31,4 +31,16 @@
         <sqlFile path="create_table_movie.sql" relativeToChangelogFile="true"/>
     </changeSet>
 
+    <changeSet id="create-table-room" author="mperic">
+        <sqlFile path="create_table_room.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="create-table-showtime" author="mperic">
+        <sqlFile path="create_table_showtime.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
+    <changeSet id="create-table-ticket" author="mperic">
+        <sqlFile path="create_table_ticket.sql" relativeToChangelogFile="true"/>
+    </changeSet>
+
 </databaseChangeLog>

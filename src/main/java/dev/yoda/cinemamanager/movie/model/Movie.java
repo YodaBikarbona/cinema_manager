@@ -1,10 +1,10 @@
-package dev.yoda.cinemamanager.model;
+package dev.yoda.cinemamanager.movie.model;
 
+import dev.yoda.cinemamanager.base.model.BaseEntity;
 import jakarta.persistence.*;
 
-import java.time.Instant;
-
-// @Entity
+@Entity
+@Table(name = "movie")
 public class Movie extends BaseEntity {
 
     private String name;

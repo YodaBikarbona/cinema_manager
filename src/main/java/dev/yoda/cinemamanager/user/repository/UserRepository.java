@@ -1,6 +1,6 @@
-package dev.yoda.cinemamanager.repository;
+package dev.yoda.cinemamanager.user.repository;
 
-import dev.yoda.cinemamanager.model.User;
+import dev.yoda.cinemamanager.user.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;

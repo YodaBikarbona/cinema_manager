@@ -1,4 +1,4 @@
-package dev.yoda.cinemamanager.validation;
+package dev.yoda.cinemamanager.user.validation;
 
 import jakarta.validation.constraints.NotNull;
 

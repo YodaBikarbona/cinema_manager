@@ -1,4 +1,4 @@
-package dev.yoda.cinemamanager.helper;
+package dev.yoda.cinemamanager.base.helper;
 
 import org.springframework.stereotype.Component;
 

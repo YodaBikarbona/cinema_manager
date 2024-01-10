@@ -1,5 +1,6 @@
-package dev.yoda.cinemamanager.model;
+package dev.yoda.cinemamanager.user.model;
 
+import dev.yoda.cinemamanager.base.model.BaseEntity;
 import jakarta.persistence.*;
 
 @Entity

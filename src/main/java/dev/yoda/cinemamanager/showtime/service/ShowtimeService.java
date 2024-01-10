@@ -1,6 +1,6 @@
 //package dev.yoda.cinemamanager.service;
 //
-//import dev.yoda.cinemamanager.model.Showtime;
+//import dev.yoda.cinemamanager.showtime.model.Showtime;
 //import dev.yoda.cinemamanager.repository.ShowtimeRepository;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.stereotype.Service;

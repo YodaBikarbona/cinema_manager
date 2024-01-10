@@ -1,4 +1,4 @@
-package dev.yoda.cinemamanager.model;
+package dev.yoda.cinemamanager.user.model;
 
 public enum UserType {
 

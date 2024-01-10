@@ -1,9 +1,9 @@
-package dev.yoda.cinemamanager.controller;
+package dev.yoda.cinemamanager.user.controller;
 
-import dev.yoda.cinemamanager.helper.ErrorMessage;
-import dev.yoda.cinemamanager.model.UserType;
-import dev.yoda.cinemamanager.service.UserService;
-import dev.yoda.cinemamanager.validation.RegisterRequest;
+import dev.yoda.cinemamanager.base.helper.ErrorMessage;
+import dev.yoda.cinemamanager.user.model.UserType;
+import dev.yoda.cinemamanager.user.service.UserService;
+import dev.yoda.cinemamanager.user.validation.RegisterRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.validation.annotation.Validated;

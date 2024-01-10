@@ -1,9 +1,9 @@
 //package dev.yoda.cinemamanager.controller;
 //
 //import dev.yoda.cinemamanager.helper.ErrorMessage;
-//import dev.yoda.cinemamanager.model.Showtime;
+//import dev.yoda.cinemamanager.showtime.model.Showtime;
 //import dev.yoda.cinemamanager.service.ShowtimeService;
-//import dev.yoda.cinemamanager.service.UserService;
+//import dev.yoda.cinemamanager.user.service.UserService;
 //import dev.yoda.cinemamanager.validation.RegisterRequest;
 //import org.springframework.beans.factory.annotation.Autowired;
 //import org.springframework.http.HttpStatus;

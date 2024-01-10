@@ -1,10 +1,9 @@
-package dev.yoda.cinemamanager.service;
+package dev.yoda.cinemamanager.user.service;
 
-import dev.yoda.cinemamanager.model.User;
-import dev.yoda.cinemamanager.model.UserType;
-import dev.yoda.cinemamanager.repository.UserRepository;
-import dev.yoda.cinemamanager.validation.RegisterRequest;
-import org.springframework.beans.factory.annotation.Autowired;
+import dev.yoda.cinemamanager.user.model.User;
+import dev.yoda.cinemamanager.user.model.UserType;
+import dev.yoda.cinemamanager.user.repository.UserRepository;
+import dev.yoda.cinemamanager.user.validation.RegisterRequest;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

@@ -1,4 +1,4 @@
-package dev.yoda.cinemamanager.model;
+package dev.yoda.cinemamanager.movie.model;
 
 public enum MovieGenre {
 

@@ -1,6 +1,6 @@
 //package dev.yoda.cinemamanager.repository;
 //
-//import dev.yoda.cinemamanager.model.Showtime;
+//import dev.yoda.cinemamanager.showtime.model.Showtime;
 //import org.springframework.data.jpa.repository.JpaRepository;
 //import org.springframework.data.repository.query.Param;
 //import org.springframework.stereotype.Repository;
